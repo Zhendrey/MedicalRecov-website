@@ -130,7 +130,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #FF685B;
   font-weight: 700; }
 
+.white {
+  background-color: #FFFFFF; }
+
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
   background-color: #FAFAFA;
   padding: 2.357em 0; }
   .header__container {
@@ -274,6 +282,9 @@ h1, h2, h3, h4, h5, h6 {
     column-gap: 15px; }
     .header__join-us p {
       color: #FFFFFF; }
+
+.page__hero {
+  margin: 100px 0 0 0; }
 
 .hero {
   background-color: #FAFAFA; }

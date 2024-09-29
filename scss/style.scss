@@ -108,9 +108,17 @@ $secondary-text-color: #5AACAB;
     color: $main-orange;
     font-weight: 700;
 }
+.white{
+    background-color: #FFFFFF;
+}
 
 //! HEADER
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
     background-color: $background-grey;
     padding: 2.357em 0;
     &__container {
@@ -232,6 +240,7 @@ $secondary-text-color: #5AACAB;
 //! MAIN PAGE! (HERO)
 .page {
     &__hero {
+        margin: 100px 0 0 0;
     }
 }
 .hero {
